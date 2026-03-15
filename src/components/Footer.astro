@@ -1,5 +1,6 @@
 ---
-
+import { Image } from 'astro:assets';
+import numfocusLogo from '../assets/logos/numfocus.png';
 ---
 
 <footer class="footer-green text-white py-16">
@@ -16,10 +17,10 @@
           href="https://www.numfocus.org">https://www.numfocus.org/</a
         >
       </p>
-      <img
+      <Image
         alt="NumFOCUS Logo"
-        class="h-12 brightness-0 invert opacity-90"
-        src="/src/assets/logos/numfocus.png"
+        class="h-12 w-auto brightness-0 invert opacity-90"
+        src={numfocusLogo}
       />
     </div>
 
