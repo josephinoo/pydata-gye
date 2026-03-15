@@ -1,0 +1,110 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Talks from "../components/Talks.astro";
+import Team from "../components/Team.astro";
+---
+
+<Layout title="PyData Guayaquil - Comunidad de Datos Python">
+  <Header />
+
+  <main>
+    <!-- Announcement Bar -->
+    <div class="bg-white border-b border-gray-300 py-4 shadow-sm">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h2
+          class="text-scipyNavy font-display text-xl uppercase tracking-tight"
+        >
+          Promoviendo herramientas de código abierto para ciencia de datos en
+          Guayaquil
+        </h2>
+        <div class="mt-2">
+          <a
+            class="text-xs bg-scipyLightBlue text-white px-4 py-2 rounded font-bold uppercase hover:bg-scipyNavy transition"
+            href="#upcoming">Revisa nuestro calendario más reciente</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <!-- <section class="py-12 bg-gray-200">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center"
+      >
+        <div class="space-y-6">
+          <h3 class="font-display text-3xl text-scipyNavy uppercase">
+            Ciencia de Datos Enfocada en la Comunidad
+          </h3>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Únete al capítulo local de la comunidad global de PyData. Promovemos
+            el uso de herramientas de código abierto para el análisis, gestión y
+            visualización de datos dentro del ecosistema tecnológico de
+            Guayaquil.
+          </p>
+          <div
+            class="bg-scipyForest text-white p-6 rounded shadow-lg inline-block w-full sm:w-auto hover:-translate-y-1 transition duration-300 transform"
+          >
+            <p class="font-display text-xl uppercase mb-2">
+              Próxima Reunión Local:
+            </p>
+            <p class="text-2xl font-bold">24 DE OCTUBRE, 2024</p>
+            <p class="uppercase tracking-widest">
+              Centro Tecnológico de Guayaquil
+            </p>
+          </div>
+        </div>
+        <div class="relative group">
+          <div
+            class="absolute inset-0 bg-scipyNavy opacity-10 rounded shadow-xl group-hover:opacity-0 transition duration-300"
+          >
+          </div>
+          <img
+            alt="Imagen de la Comunidad"
+            class="rounded shadow-xl w-full h-80 object-cover group-hover:-translate-y-1 transition duration-300 transform"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1wRqzjx99FDlzQRcBlhJs2oL5sIs6Yl31FhTx822SgYNWZqEg15Oda8dTK0uy3M6Lb7nIOidIX1aotaHtCiJJxWjyJp9iIaORWOyNtb9fNlcVqnq8pJI9UHsX3TD7oa5sJ4lvasAe89TY-CJlvQC_qENNQ7B4Vx2zu4M2NTirRmEXbGTnLXrRFQ9WCvF80K13T3cm5L4cU23QM_hV7zUZP4FAcHrEgpOoHr_DhlY6IwdQOnE-VB-8FZsuovCoHpDJQi0EP_6t4kGN"
+          />
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Talks and Team Components -->
+    <Talks />
+    <Team />
+
+    <!-- Join Us Section -->
+    <section class="bg-scipyForest py-16" id="join">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+      >
+        <h2 class="font-display text-4xl uppercase mb-6 tracking-tight">
+          Sé Parte de Nuestra Comunidad
+        </h2>
+        <p
+          class="mt-4 text-xl opacity-90 mb-10 max-w-3xl mx-auto leading-relaxed"
+        >
+          PyData no sería posible sin el generoso apoyo de nuestros voluntarios
+          y ponentes. Únete a nuestra vibrante comunidad de profesionales de la
+          computación científica.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            class="bg-white text-scipyForest px-8 py-4 font-display text-xl uppercase rounded hover:bg-scipyBg transition shadow-lg transform hover:-translate-y-1"
+            href="https://www.meetup.com/es-es/pydata-guayaquil/"
+          >
+            Únete al Grupo de Meetup
+          </a>
+          <a
+            class="border-2 border-white text-white px-8 py-4 font-display text-xl uppercase rounded hover:bg-white hover:text-scipyForest transition shadow-lg transform hover:-translate-y-1"
+            href="#"
+          >
+            Propón una Charla
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

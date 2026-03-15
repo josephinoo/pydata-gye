@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-scipyNavy: #3b4e8d;
+  --color-scipyForest: #006837;
+  --color-scipyLightBlue: #7184bc;
+  --color-pyOrange: #f39233;
+  --color-pyDark: #2c3e50;
+  --color-scipyBg: #ced6e0;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Roboto Condensed', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .scipy-header-bg {
+    background-color: var(--color-scipyNavy);
+  }
+  .section-header-navy {
+    background-color: var(--color-scipyNavy);
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    letter-spacing: 0.05em;
+  }
+  .section-header-green {
+    background-color: var(--color-scipyForest);
+    color: white;
+    padding: 1.5rem;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .info-card {
+    background-color: var(--color-scipyLightBlue);
+    color: white;
+    border-radius: 4px;
+  }
+  .footer-green {
+    background-color: var(--color-scipyForest);
+  }
+}

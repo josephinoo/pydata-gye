@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-pyDark">
+    <!-- Top Banner Alert Style -->
+    <div class="bg-scipyNavy text-white py-2 text-center text-xs px-4">
+      PyData Guayaquil es un proyecto de NumFOCUS. Conoce más sobre nuestra misión <a class="underline" href="#">aquí</a>.
+    </div>
+
+    <slot />
+  </body>
+</html>

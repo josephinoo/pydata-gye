@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Joseph Avila",
+    "role": "Organizador",
+    "image": "/src/assets/team/joseph-avila.png",
+    "social": {
+      "type": "LinkedIn",
+      "url": "#"
+    }
+  },
+  {
+    "name": "Jorge Fierro",
+    "role": "Organizador",
+    "image": "/src/assets/team/jorge-luis.jpeg",
+    "social": {
+      "type": "LinkedIn",
+      "url": "#"
+    }
+  },
+  {
+    "name": "Martha Tomala",
+    "role": "Organizadora",
+    "image": "/src/assets/team/martha-tomala.jpeg",
+    "social": {
+      "type": "GitHub",
+      "url": "#"
+    }
+  },
+  {
+    "name": "Yelena Lucas",
+    "role":"Organizadora",
+    "image": "/src/assets/team/yelena-lucas.jpeg",
+    "social": {
+      "type": "GitHub",
+      "url": "#"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "featured": {
+    "date": "7 de Abril, 2026",
+    "time": "10:00 AM (GMT-5)",
+    "title": "Airflow Workshop",
+    "description": "Airflow es una plataforma open source para la orquestación de flujos de trabajo. Te enseñaremos como implementar Airflow en tus proyectos.",
+    "speaker": {
+      "name": "Joseph Avila",
+      "role": "Científico de Datos @ Banco Guayaquil",
+      "initials": "JA"
+    }
+  },
+  "past": [
+    {
+      "date": "7 de Febrero, 2026",
+      "title": "Integrando Python en Power BI",
+      "speaker": "Jorge Fierro",
+      "materialsUrl": "https://www.meetup.com/es-es/pydata-guayaquil/events/313140085/",
+      "image": "/src/assets/talks/integrando-python.avif"
+    },
+    {
+      "date": "7 de Marzo, 2026",
+      "title": "Pipelines con Python",
+      "speaker": "Yelenas Lucas",
+      "materialsUrl": "https://www.meetup.com/es-es/pydata-guayaquil/events/313611108/",
+      "image": "/src/assets/talks/pipelines-python.avif"
+    }
+
+  ]
+}
